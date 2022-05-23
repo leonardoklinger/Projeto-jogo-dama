@@ -1,0 +1,27 @@
+button {
+    background-color: #9bd281;
+    border: none;
+    color: #21471c;
+    width: 240px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+button:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    background-color: #65a149;
+    color: #122b0f;
+}
+
+.divPaiGeral {
+    margin-top: 4%;
+    background-color: rgb(207, 207, 207);
+    height: 48.9%;
+}
+
+.botaoReiniciar {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}

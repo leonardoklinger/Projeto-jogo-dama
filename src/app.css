@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.teste {
+    /* border: 5px solid rgb(61, 0, 85); */
+    width: 28%;
+    align-items: center;
+}
+
+.teste h3, h4 {
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.teste label {
+    padding-left: 50px;
+}
+
+.tabuleiro {
+    background-color: rgb(207, 207, 207);
+    width: 70%;
+    height: 100vh;
+}

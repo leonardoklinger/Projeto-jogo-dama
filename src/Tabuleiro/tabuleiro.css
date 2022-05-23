@@ -1,0 +1,61 @@
+#tabuleiro,
+.marrom,
+.branco {
+    padding: 0px;
+    margin: 0px;
+}
+
+#tabuleiro {
+    width: 384px;
+    height: 384px;
+    border: 10px solid #ffffff;
+}
+
+#fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 410px;
+    width: 100%;
+}
+
+.marrom,
+.branco {
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+
+.marrom {
+    background-color: #735515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.branco {
+    background-color: #FFFFFF;
+}
+
+span:hover {
+    transition: 0.2s;
+    border: 2.5px solid rgb(255, 255, 255);
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.PecaCor1 {
+    background: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.PecaCor2{
+    background: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
