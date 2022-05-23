@@ -1,1 +1,1 @@
-# Ops: o jogo não foi implemantado 100% (Desafio)
+# Ops: o jogo não foi implementado 100% (Desafio)
